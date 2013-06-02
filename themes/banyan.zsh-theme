@@ -10,7 +10,7 @@ local host_color=$'%{\e[38;5;194m%}'
 local user="%{$user_color%}%n%{$reset_color%}"
 local host="%{$host_color%}$(echo ${HOST%%.*}| tr '[a-z]' '[A-Z]')"
 
-PROMPT="${host} ${user}%{${reset_color}%} %(?,%{$success_color%}⚡%{$reset_color%},%{$failure_color%}⚡%{$reset_color%}) "
+PROMPT="${host} ${user}%{${reset_color}%} %(?,%{$success_color%}☁%{$reset_color%},%{$failure_color%}☁%{$reset_color%})  "
 
 SPORK_INFO=$'%{$spork_color%}$(spork_process)%{${reset_color}%}'
 VCS_INFO="%1(v|%{$vcs_color%}%1v%f%F{$stash_color%}%2v%f|)"
