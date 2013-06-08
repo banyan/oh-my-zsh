@@ -1,6 +1,6 @@
 local success_color=$'%{\e[38;5;38m%}'
 local failure_color=$'%{\e[38;5;227m%}'
-local path_color=$'%{\e[38;5;61m%}'
+local path_color=$'%{\e[38;5;14m%}'
 local spork_color=$'%{\e[38;5;31m%}'
 local vcs_color=$'%{\e[38;5;248m%}'
 local stash_color=$'%{\e[38;5;148m%}'
